@@ -10,9 +10,13 @@ To easily replicate my environment, please clone the **environment.yml** file us
 
 # Data
 We have used the **Fall Detection Dataset** which can be found on this [website](http://le2i.cnrs.fr/Fall-detection-Dataset?lang=fr)
+
 It is divided into two further sections - **Fall** and **Non-Fall**.
+
 The **Fall** section contains videos of people falling.
+
 The **Non-Fall** section contains videos of people completing some task. They do not fall at any point in time.
+
 We have already provided a link below to the preprocessed data, so there is no need of downloading the dataset.
 
 
