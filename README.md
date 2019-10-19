@@ -1,4 +1,12 @@
-The following repository is aimed at optical flow prediction using GANs.
+# Optical flow prediction using Generative Adversarial Neural Networks
+<p align="center"> Alex Mathai(BITS Pilani)    |   Vidit Jain(BITS Pilani) </p>
+
+# TL;DR
+This repository contains scripts for training a Generative Adversarial Framework for Optical Flow Prediction. This is an ongoing project. We have modelled optical flow prediction 
+in this way, so that this framework can later on be used for the purpose of novelty detection.
+
+# Environment
+To easily replicate my environment, please clone the **environment.yml** file using **Conda**.
 
 There are four important files in the Code folder
 
