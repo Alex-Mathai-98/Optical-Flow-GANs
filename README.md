@@ -125,3 +125,7 @@ Left Images are the **Ground Truth** and the right images are the **Predictions*
   <img src="/Images/ex1_ground_truth.png" width="300" hspace="50"/>  
   <img src="/Images/ex1_predicted.png" width="300"/>
 </p>
+<p align="middle">
+  <img src="/Images/ex2_ground_truth.png" width="300" hspace="50"/>  
+  <img src="/Images/ex2_predicted.png" width="300"/>
+</p>
