@@ -14,7 +14,12 @@ We have used the **Fall Detection Dataset** which can be found on this [website]
 The **Fall** section contains videos of people falling.
 
 The **Non-Fall** section contains videos of people completing some task. They do not fall at any point in time.
-We have already provided a link below to the preprocessed data, so there is no need of downloading the dataset.
+
+We have already provided a [link](https://drive.google.com/drive/folders/1GWpGggmkS2F_YrXTPhRWttQUzF321dLX?usp=sharing) below to the preprocessed data, so there is no need of downloading the dataset.
+
+## Steps
+1. Download the folders ```test_data```, ```train_data``` and move all the data to the ```Code/train_data``` and ```Code/test_data``` folders.
+2. Download the ```adl_dataset.hdf5``` and the ```adl_dataset_test.hdf5``` files and put them in the ```Code``` folder.
 
 # Optical Flow
 The optical flow between frames helps to focus on the the movement of the objects we are interested in. A simple example is given below.
@@ -25,7 +30,7 @@ The optical flow between frames helps to focus on the the movement of the object
 On the left is the result of super-imposing 2 successive frames. On the right is the optical flow of the tennis player that highlights her movement.
 
 # Preprocessing using [PwC Net](https://github.com/NVlabs/PWC-Net/tree/master/PyTorch)
-We pass successive frames from the Fall Dataset to PwC Net in order to get optical-flows. We have saved the optical flows in the ```Code/train_data``` and ```Code/test_data``` folders.
+We pass successive frames from the **Fall Dataset*** to **PwC Net** in order to get optical-flows. If you have followed the steps in the **Data** section then the optical flows can be located in the ```Code/train_data``` and ```Code/test_data``` folders.
 
 
 # Architecture
