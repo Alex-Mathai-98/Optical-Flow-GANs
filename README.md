@@ -32,8 +32,18 @@ On the left is the result of super-imposing 2 successive frames. On the right is
 # Preprocessing using [PwC Net](https://github.com/NVlabs/PWC-Net/tree/master/PyTorch)
 We pass successive frames from the **Fall Dataset*** to **PwC Net** in order to get optical-flows. If you have followed the steps in the **Data** section then the optical flows can be located in the ```Code/train_data``` and ```Code/test_data``` folders.
 
-
 # Architecture
+In this section we explain to you the flow of the data through the networks and the basic network components.
+We create stacks of 10 optical flows (from 20 video frames) that were produced by PwC-Net. For each stack, we slice out the last optical flow and feed in the beginning 9 optical flows through the generator. We then make the generator predict the 10th optical flow.
+
+We then pass this predicted flow to the discriminator and as the discriminator whether it thinks if this predicted optical flow is real  
+
+## Generator
+
+## Discriminator
+<p align="middle">
+  <img src="/Images/discriminator.png" width="600"/>
+</p>
 
 There are four important files in the Code folder
 
