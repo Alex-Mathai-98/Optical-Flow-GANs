@@ -57,10 +57,11 @@ The adversarial training of this framework (detailed in the section below) helps
   <img src="/Images/generator_eqn.gif" width="300"/>
 </p>
 
+In the generator equation, the first term is simply the mean squared error of pixel values in the predicted flow. The second term is the loss by 
 
 ## Discriminator
 <p align="middle">
-  <img src="/Images/discriminator_eqn.gif" width="250"/>
+  <img src="/Images/discriminator_eqn.gif" width="300"/>
 </p>
 
 There are four important files in the Code folder
