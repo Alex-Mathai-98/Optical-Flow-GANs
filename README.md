@@ -53,7 +53,9 @@ The adversarial training of this framework (detailed in the section below) helps
 # Loss Functions
 
 ## Generator
-
+<p align="middle">
+  <img src="/Images/generator.gif" width="600"/>
+</p>
 
 
 ## Discriminator
