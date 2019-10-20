@@ -30,7 +30,7 @@ The optical flow between frames helps to focus on the the movement of the object
 On the left is the result of super-imposing 2 successive frames. On the right is the optical flow of the tennis player that highlights her movement.
 
 # Preprocessing using [PwC Net](https://github.com/NVlabs/PWC-Net/tree/master/PyTorch)
-We pass successive frames from the **Fall Dataset*** to **PwC Net** in order to get optical-flows. If you have followed the steps in the **Data** section then the optical flows can be located in the ```Code/train_data``` and ```Code/test_data``` folders.
+We pass successive frames from the **Fall Dataset** to **PwC Net** in order to get optical-flows. If you have followed the steps in the **Data** section then the optical flows can be located in the ```Code/train_data``` and ```Code/test_data``` folders.
 
 # Architecture
 In this section we explain to you the flow of the data through the networks and the basic network components.
@@ -39,6 +39,9 @@ We create stacks of 10 optical flows (from 20 video frames) that were produced b
 We then pass this predicted flow to the discriminator and as the discriminator whether it thinks if this predicted optical flow is real  
 
 ## Generator
+<p align="middle">
+  <img src="/Images/generator.png" width="600"/>
+</p>
 
 ## Discriminator
 <p align="middle">
