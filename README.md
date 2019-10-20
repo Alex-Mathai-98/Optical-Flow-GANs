@@ -54,7 +54,7 @@ The adversarial training of this framework (detailed in the section below) helps
 
 ## Generator
 <p align="middle">
-  <img src="/Images/generator.gif" width="300"/>
+  <img src="/Images/generator_eqn.gif" width="300"/>
 </p>
 
 
