@@ -85,6 +85,8 @@ There are four important files in the Code folder
 3. flow_gans.ipynb
 4. Model U-Net for Optical Flow Estimation.ipynb
 
+If you have already downloaded the data from the link that was previously provided, then you do NOT need to run the 1st three jupyter notebooks.
+
 ### create_train_adl_dataset.ipynb
 This script creates the training dataset - an efficient ".hdf5" file named "adl_dataset". This combines the preprocessed frames in the ```Code/train_data``` folder which were already passed through PwC Net.
 
@@ -98,7 +100,7 @@ A temporary file that includes the architectures of the generator and the discri
 This script contains the training code for GANs and also predicts and saves some optical flow frames from the training_data.
 
 
-Step 1: Create a new conda environment using the environment.yml file
+<!-- Step 1: Create a new conda environment using the environment.yml file
 
 Step 2 : Please click the link : https://drive.google.com/drive/folders/1GWpGggmkS2F_YrXTPhRWttQUzF321dLX?usp=sharing
 Download all the subfolders and place them within the "Code" folder.
@@ -109,7 +111,7 @@ Step 3: All files can be run by "jupyter notebook <filename.ipynb>"
 
 	B) The output of "jupyter notebook adl_dataset_test.ipynb" in the terminal will give you "adl_dataset_test.hdf5" which you have already downloaded from google drive
 	
-	C) Finally Run "jupyter notebook flow_gans.ipynb"
+	C) Finally Run "jupyter notebook flow_gans.ipynb" -->
 	
 	
 Please Note the ".npy" files in the train_data and test_data folder have been created by the script "pwcnet_predict_from_img_pairs.ipynb" located in the tfoptflow.
