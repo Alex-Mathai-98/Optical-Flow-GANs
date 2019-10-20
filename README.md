@@ -120,18 +120,8 @@ Please Note the ".npy" files in the train_data and test_data folder have been cr
 # Results
 
 ## Training Data Samples
+Left Images are the **Ground Truth** and the right images are the **Predictions**
 <p align="middle">
-  <img src="/Images/ex1_ground_truth.png" width="300"/>
-  
+  <img src="/Images/ex1_ground_truth.png" width="300" hspace="50"/>  
   <img src="/Images/ex1_predicted.png" width="300"/>
-  <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
 </p>
-
-<div class="row">
-  <div class="column">
-    <img src="/Images/ex1_ground_truth.png" alt="Snow" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="/Images/ex1_ground_truth.png" alt="Forest" style="width:100%">
-  </div>
-</div>
