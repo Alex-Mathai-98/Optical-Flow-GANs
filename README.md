@@ -60,7 +60,7 @@ The adversarial training of this framework (detailed in the section below) helps
 
 ## Discriminator
 <p align="middle">
-  <img src="/Images/discriminator_eqn.gif" width="300"/>
+  <img src="/Images/discriminator_eqn.gif" width="250"/>
 </p>
 
 There are four important files in the Code folder
