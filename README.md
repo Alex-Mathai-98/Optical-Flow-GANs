@@ -57,12 +57,26 @@ The adversarial training of this framework (detailed in the section below) helps
   <img src="/Images/generator_eqn.gif" width="300"/>
 </p>
 
-In the generator equation, the first term is simply the mean squared error of pixel values in the predicted flow. The second term is the loss by 
+In the generator equation, the first term is simply the mean squared error of pixel values in the predicted flow. The second term is the loss for not being able to fool the discriminator.
 
 ## Discriminator
 <p align="middle">
   <img src="/Images/discriminator_eqn.gif" width="300"/>
 </p>
+
+In the discriminator equation, the first term is the loss for not being able to predict the actual optical flows as real. The second term is the loss for not being able to predict the generated optical flow as fake.
+
+# Code Structure
+```
+Code
+├──  test_data
+├──  train_data
+├──  parameters
+├──  create_test_adl_dataset.ipynb
+├──  create_train_adl_dataset.ipynb
+├──  flow_gans.ipynb
+├──  Model U-Net for Optical Flow Estimation.ipynb
+```
 
 There are four important files in the Code folder
 
