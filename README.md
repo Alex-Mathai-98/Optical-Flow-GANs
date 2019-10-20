@@ -80,21 +80,21 @@ Code
 
 There are four important files in the Code folder
 
-A) create_train_adl_dataset.ipynb
-B) create_test_adl_dataset.ipynb
-C) flow_gans.ipynb
-D) Model U-Net for Optical Flow Estimation.ipynb
+1. create_train_adl_dataset.ipynb
+2. create_test_adl_dataset.ipynb
+3. flow_gans.ipynb
+4. Model U-Net for Optical Flow Estimation.ipynb
 
-A) create_train_adl_dataset.ipynb
-This script creates an efficient ".hdf5" file named "adl_dataset". This combines the preprocessed frames in the train_data folder which have been passed through PwC Net.
+### create_train_adl_dataset.ipynb
+This script creates the training dataset - an efficient ".hdf5" file named "adl_dataset". This combines the preprocessed frames in the ```Code/train_data``` folder which were already passed through PwC Net.
 
-B) create_test_adl_dataset.ipynb
-This script creates an efficient ".hdf5" file named "adl_dataset". This combines the preprocessed frames in the test_data folder which have been passed through PwC Net.
+### create_test_adl_dataset.ipynb
+This script creates the testing dataset - an efficient ".hdf5" file named "adl_dataset_test". This combines the preprocessed frames in the ```Code/test_data``` folder which were already passed through PwC Net.
 
-C) Model U-Net for Optical Flow Estimation.ipynb
-A temporary file that includes the architectures of the generator and the discriminator.
+### Model U-Net for Optical Flow Estimation.ipynb
+A temporary file that includes the architectures of the generator and the discriminator. If this is just what you are looking for, then you can use the architectures for your research purposes.
 
-D) flow_gans.ipynb
+### flow_gans.ipynb
 This script contains the training code for GANs and also predicts and saves some optical flow frames from the training_data.
 
 
