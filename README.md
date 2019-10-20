@@ -9,15 +9,18 @@ in this way, so that this framework can later on be used for the purpose of nove
 To easily replicate my environment, please clone the **environment.yml** file using **Conda**.
 
 # Data
-We have used the **Fall Detection Dataset** which can be found on this [website](http://le2i.cnrs.fr/Fall-detection-Dataset?lang=fr)
-
-It is divided into two further sections - **Fall** and **Non-Fall**.
+We have used the **Fall Detection Dataset** which can be found on this [website](http://le2i.cnrs.fr/Fall-detection-Dataset?lang=fr). It is divided into two further sections - **Fall** and **Non-Fall**.
 
 The **Fall** section contains videos of people falling.
 
 The **Non-Fall** section contains videos of people completing some task. They do not fall at any point in time.
-
 We have already provided a link below to the preprocessed data, so there is no need of downloading the dataset.
+
+# Optical Flow
+The optical flow between frames helps to focus on the the movement of the objects we are interested in. A simple example is given below.
+<p align="middle">
+  <img src="/Images/optical_flow.png" width="400"/>
+</p>
 
 
 There are four important files in the Code folder
