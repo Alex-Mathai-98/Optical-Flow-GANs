@@ -34,19 +34,30 @@ We pass successive frames from the **Fall Dataset** to **PwC Net** in order to g
 
 # Architecture
 In this section we explain to you the flow of the data through the networks and the basic network components.
-We create stacks of 10 optical flows (from 20 video frames) that were produced by PwC-Net. For each stack, we slice out the last optical flow and feed in the beginning 9 optical flows through the generator. We then make the generator predict the 10th optical flow.
+We create stacks of 10 optical flows (from 20 video frames) that were produced by PwC-Net. For each stack, we slice out the last optical flow and feed in the beginning 9 optical flows through the generator. We then make the generator predict the 10th optical flow. 
 
-We then pass this predicted flow to the discriminator and as the discriminator whether it thinks if this predicted optical flow is real  
-
-## Generator
+## Generator U-Net
 <p align="middle">
   <img src="/Images/generator.png" width="600"/>
 </p>
 
-## Discriminator
+We concatenate the predicted optical flow with the previous 9 optical flows. We then pass this stack to the discriminator and ask the discriminator whether it thinks if this predicted optical flow is real or fake. This is the basic adversarial framework.
+
+## Discriminator Convolution Network
 <p align="middle">
   <img src="/Images/discriminator.png" width="600"/>
 </p>
+
+The adversarial training of this framework (detailed in the section below) helps in the prediction of optical flows to be very accurate.
+
+# Loss Functions
+
+## Generator
+
+
+
+## Discriminator
+
 
 There are four important files in the Code folder
 
