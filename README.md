@@ -121,6 +121,6 @@ Please Note the ".npy" files in the train_data and test_data folder have been cr
 
 ## Training Data Samples
 <p align="middle">
-  <img src="/Images/ex1_ground_truth.png" width="300" hspace="20"/>
+  <img src="/Images/ex1_ground_truth.png" width="300" hspace="20" label="Ground Truth"/>
   <img src="/Images/ex1_predicted.png" width="300" hspace="20"/>
 </p>
