@@ -122,7 +122,16 @@ Please Note the ".npy" files in the train_data and test_data folder have been cr
 ## Training Data Samples
 <p align="middle">
   <img src="/Images/ex1_ground_truth.png" width="300"/>
-  <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+  
   <img src="/Images/ex1_predicted.png" width="300"/>
   <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
 </p>
+
+<div class="row">
+  <div class="column">
+    <img src="/Images/ex1_ground_truth.png" alt="Snow" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="/Images/ex1_ground_truth.png" alt="Forest" style="width:100%">
+  </div>
+</div>
