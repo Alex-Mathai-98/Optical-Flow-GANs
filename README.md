@@ -111,8 +111,16 @@ Step 3: All files can be run by "jupyter notebook <filename.ipynb>"
 
 	B) The output of "jupyter notebook adl_dataset_test.ipynb" in the terminal will give you "adl_dataset_test.hdf5" which you have already downloaded from google drive
 	
-	C) Finally Run "jupyter notebook flow_gans.ipynb" -->
-	
+	C) Finally Run "jupyter notebook flow_gans.ipynb" 
 	
 Please Note the ".npy" files in the train_data and test_data folder have been created by the script "pwcnet_predict_from_img_pairs.ipynb" located in the tfoptflow.
 "pwcnet_predict_from_img_pairs.ipynb" is the only file we created, all other files have been provided by Nvidia.
+-->
+
+# Results
+
+## Training Data Samples
+<p align="middle">
+  <img src="/Images/ex1_ground_truth.png" width="300" hspace="20"/>
+  <img src="/Images/ex1_predicted.png" width="300" hspace="20"/>
+</p>
