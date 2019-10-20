@@ -19,9 +19,16 @@ We have already provided a link below to the preprocessed data, so there is no n
 # Optical Flow
 The optical flow between frames helps to focus on the the movement of the objects we are interested in. A simple example is given below.
 <p align="middle">
-  <img src="/Images/optical_flow.png" width="400"/>
+  <img src="/Images/optical_flow.png" width="600"/>
 </p>
 
+On the left is the result of super-imposing 2 successive frames. On the right is the optical flow of the tennis player that highlights her movement.
+
+# Preprocessing using [PwC Net](https://github.com/NVlabs/PWC-Net/tree/master/PyTorch)
+We pass successive frames from the Fall Dataset to PwC Net in order to get optical-flows. We have saved the optical flows in the ```Code/train_data``` and ```Code/test_data``` folders.
+
+
+# Architecture
 
 There are four important files in the Code folder
 
