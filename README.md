@@ -15,7 +15,7 @@ The **Fall** section contains videos of people falling.
 
 The **Non-Fall** section contains videos of people completing some task. They do not fall at any point in time.
 
-We have already provided a [link](https://drive.google.com/drive/folders/1GWpGggmkS2F_YrXTPhRWttQUzF321dLX?usp=sharing) below to the preprocessed data, so there is no need of downloading the dataset.
+We have already provided a [link](https://drive.google.com/drive/folders/1GWpGggmkS2F_YrXTPhRWttQUzF321dLX?usp=sharing) to the preprocessed data, so there is no need of downloading the dataset.
 
 ## Steps
 1. Download the folders ```test_data```, ```train_data``` and move all the data to the ```Code/train_data``` and ```Code/test_data``` folders.
