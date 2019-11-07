@@ -9,7 +9,7 @@ in this way, so that this framework can later on be used for the purpose of nove
 To easily replicate my environment, please clone the **environment.yml** file using **Conda**.
 
 # Data
-We have used the **Fall Detection Dataset** which can be found on this [website](http://le2i.cnrs.fr/Fall-detection-Dataset?lang=fr). It is divided into two further sections - **Fall** and **Non-Fall**.
+We have used the **Fall Detection Dataset** which can be found on this [website](http://fenix.univ.rzeszow.pl/~mkepski/ds/uf.html). It is divided into two further sections - **Fall** and **Non-Fall**.
 
 The **Fall** section contains videos of people falling.
 
